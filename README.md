@@ -37,3 +37,27 @@ By separating an application into these three distinct components, the MVC archi
 
 ## Flowchart
 ![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/8da23cf7-cb97-4819-9eb8-c86151496b8d)
+
+## Results
+Initially a HTML page is opened, which prompts the user to upload the CSV file which contains the data they want visualized. 
+
+![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/6607cb2d-6fe1-46b3-8d38-50106805b4af) 
+![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/82540f51-9dc2-4748-9b68-f2d57a458383)
+
+The tool is run on a local server and accessed through a web browser. The file is uploaded and the type of graph is chosen by the user. Finally, the “Plot Graph” button is clicked to execute the doGet() method of the servlet. The tool reads the data from the CSV file, processes it using Chart.js, and displays the resulting chart on the web page 
+
+![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/fa4a389c-eda4-4c05-bf68-a413f66a60b6)
+
+Each point on the plotted graph can be viewed for the y-axis value for easier accessibility and readability.  Hence the user can view the exact value of x-axis entity without having to trace the point back to the y-axis line and instead can just hover the pointer over the plotted graph to view it.
+
+![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/3af04d77-5885-4d91-9069-03d8a2cc6465)
+An added feature of the produced graph is that the user can easily download the graph in a PNG format for further use in any document of their choice. The user just has to hover over the graph and save the image 
+
+![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/79599b89-b238-4a45-a43f-45c1a42a4cad)
+
+The data visualization tool built can be used to generate the following types of graphs based on the given data and the requirements of the user –
+- Line Graph
+- Bar Graph
+- Pie Graph
+- Doughnut Graph
+![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/7dd1cfe5-6105-4fb7-a9ee-b9902e4cb56d)
